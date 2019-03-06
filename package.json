@@ -1,0 +1,16 @@
+{
+  "name": "mapmaker",
+  "version": "0.0.1",
+  "description": "Make Map Segments",
+  "main": "main.js",
+  "dependencies": {},
+  "scripts": {
+    "start": "electron .",
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.0.7"
+  }
+}
