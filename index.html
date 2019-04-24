@@ -4,6 +4,31 @@
     <meta charset="UTF-8">
     <title>Hello World!</title>
   </head>
+
+<template>
+  <sidebar-menu :menu="menu" />
+</template>
+
+<script>
+    export default {
+        data() {
+            menu: [
+                {
+                    href: '/',
+                    title: 'Dashboard',
+                    icon: 'fa fa-user'
+                },
+                {
+                    href: '#',
+                    title: 'Charts',
+                    icon: 'fa fa-chart-area'
+                },
+            ]
+        }
+    }
+</script>
+
+
   <body>
     <h1>Hello World!</h1>
     We are using node <script>document.write(process.versions.node)</script>,
